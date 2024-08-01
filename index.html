@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miniApp</title>
+    <link href="./style/miniapp.css" rel="stylesheet">
+    <link href="./style/general.css" rel="stylesheet">
+    <script src="handleTheme.js" defer></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <header>
+            <nav>
+                <img src="./assets/icons/bars-solid-dark.svg" alt="">
+                <div class="chores" id="chores">
+                    <div class="orange-light"></div>
+                    <p>CHORES</p>
+                </div>
+            </nav>
+            <div class="input-wrapper">
+                <input id="text-input" class="text-input" type="text" placeholder="Add Item">
+                    <img src="./assets/icons/plus-solid.svg" onclick="addTask" alt="">
+            </div>
+        </header>
+        <main>
+            <hr class="solid" id="divider">
+            <p class="text-light">TO DO</p>
+            <div class="to-do-container">
+                <section class="radio-section radio-section-to-do">
+                    <input type="radio" name="group1" id="default"class="custom-radio" >
+                    <label for="default" class="custom-radio-label">Pick up mail</label>
+                </section>
+                <section class="radio-section radio-section-to-do">
+                    <input type="radio" name="group1" id="default1"class="custom-radio" >
+                    <label for="default1" class="custom-radio-label">But cat food</label>
+                </section>
+                <section class="radio-section radio-section-to-do">
+                    <input type="radio" name="group1" id="default2"class="custom-radio" >
+                    <label for="default2" class="custom-radio-label">Get gift for grandma</label>
+                </section>
+                <section class="radio-section radio-section-to-do">
+                    <input type="radio" name="group1" id="default3"class="custom-radio" >
+                    <label for="default3" class="custom-radio-label">Doctors appointment</label>
+                </section>
+            </div>
+                <p class="text-light">COMPLETED</p>
+                <div class="completed-container">
+                    <section class="radio-section radio-section-completed">
+                        <img src="./assets/icons/check-solid.svg" alt="" class="check">
+                        <label class="custom-radio-label">Feed dog</label>
+                    </section>
+                    <section class="radio-section radio-section-completed">
+                        <img src="./assets/icons/check-solid.svg" alt="" class="check">
+                        <label class="custom-radio-label">Renew registration</label>
+                    </section>
+                    <section class="radio-section radio-section-completed">
+                        <img src="./assets/icons/check-solid.svg" alt="" class="check">
+                        <label class="custom-radio-label">Doctors appointment</label>
+                    </section>
+                </div>
+        </main>
+    </div>
+    <button id="theme-toggle">Toggle Theme</button>
+</body>
+</html>
