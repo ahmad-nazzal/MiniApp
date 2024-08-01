@@ -7,7 +7,7 @@
 To run this project you need to install:
 - Install the live server extension on Vs Code IDE
 ## Deploying
-I already deployed the project to this url https://evaluate-news-nlp-one.vercel.app/
+I already deployed the project to this url https://ahmad-nazzal.github.io/MiniApp/
 # Get in touch with me
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,mysql,php)](https://ahmad-nazzal-portfolio.netlify.app/)
 ### Contact Me
