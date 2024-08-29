@@ -3,9 +3,11 @@
 - This project is a To-Do List app.
 - It helps users to organize their tasks.
 - Users can view the tasks that have been completed previously.
+- 
 ## Instructions
 To run this project you need to install:
 - Install the live server extension on Vs Code IDE
+
 ## Deploying
 I already deployed the project to this url https://ahmad-nazzal.github.io/MiniApp/
 # Get in touch with me
